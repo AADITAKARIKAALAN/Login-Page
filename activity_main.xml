@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/textview"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#F5F5DC"
+
+android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:hint="Username*(221501008)"
+        android:inputType="text"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="351dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/username"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Password*"
+        android:inputType="textPassword"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#D3D3D3"
+        android:text="login"
+        android:textColor="#0F0E0E"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="  LOGIN "
+
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="110dp"
+        app:drawableTopCompat="@drawable/baseline_person_outline_24" />
+
+
+
+</RelativeLayout>
